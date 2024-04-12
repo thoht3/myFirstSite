@@ -1,27 +1,147 @@
-/* .head {
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.head {
     display: flex;
     justify-content: space-between;
 }
 
 ul {
     display: flex;
-    gap: 16px;
+    gap: 50px;
 }
 
 li {
     list-style-type: none;
+    width: 150px;
+    text-align: center;
 }
 
-.panel1 {
+.panel1, .head {
     display: flex;
     background-color: #1F2937;
     color: white;
+    padding: 8px 120px;
+}
+
+.head {
+    align-items: center;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.linklist {
+    font-weight: bold;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.osom {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.panel1 {
+    height: 300px;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.panel2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 200px;
+
+}
+
+.panel3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: flex-end;
+    padding: 8px 250px;
+
+}
+
+.panel4 {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 120px;
+    padding: 30px 80px;
+    background-color: #3882F6;
+    flex-grow: 0;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+    height: 100px;
+    padding-top: 35px;
 }
 
 img {
     background-color: gray;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.bigimage {
+    width: 600px;
+    height: 200px;
 }
 
 button {
-    background-color: blue;
-} */
+    background-color: #3882F6;
+    color: white;
+    border-color: #3882F6;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.button2 {
+    border-color: white;
+}
+
+.label2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.label3 {
+    font-weight: bold;
+    color: white;
+}
+
+.quote1 {
+    font-size: 36px;
+    font-style:italic;
+}
+
+.p3 {
+    color: #E5E7EB;
+}
+
+.thor {
+    font-weight: bold;
+    font-size: 24px;
+}
